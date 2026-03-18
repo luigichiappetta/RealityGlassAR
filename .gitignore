@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+
+# Xcode user/build files
+DerivedData/
+*.xcworkspace/xcuserdata/
+*.xcuserdatad
+*.xcuserstate
+
+# SwiftPM
+.build/
+
+# Unity generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
+MemoryCaptures/
+
+# Unity auto files
+sysinfo.txt
+
+# Export artifacts (optional large binaries)
+*.ipa
+*.dSYM
