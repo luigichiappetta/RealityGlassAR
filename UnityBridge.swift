@@ -28,8 +28,8 @@ final class UnityBridge: NSObject {
         }
         guard let principalClass = bundle.principalClass as? UnityFramework.Type else { return }
         let framework = principalClass.getInstance()
-        framework.setDataBundleId("com.unity3d.framework")
-        framework.runEmbedded(withArgc: CommandLine.argc, argv: CommandLine.unsafeArgv, appLaunchOpts: nil)
+        framework?.setDataBundleId("com.unity3d.framework")
+        framework?.runEmbedded(withArgc: CommandLine.argc, argv: CommandLine.unsafeArgv, appLaunchOpts: nil)
         unityFramework = framework
         isStarted = true
     }
