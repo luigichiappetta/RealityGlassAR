@@ -26,3 +26,10 @@ sysinfo.txt
 # Export artifacts (optional large binaries)
 *.ipa
 *.dSYM
+
+# Generated Unity iOS export artifacts (keep local, do not push)
+UnityExport/
+Data/
+Unity-iPhone.xcodeproj/
+Il2CppOutputProject/
+Libraries/

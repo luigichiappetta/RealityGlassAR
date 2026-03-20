@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		672DC9A52F6D3F5A00CCE790 /* UnityFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 672DC99E2F6D3EF400CCE790 /* UnityFramework.framework */; };
+		672DC9A62F6D3F5A00CCE790 /* UnityFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 672DC99E2F6D3EF400CCE790 /* UnityFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		672DC99D2F6D3EF400CCE790 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 672DC9862F6D3EF300CCE790 /* Unity-iPhone.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9D25AB9D213FB47800354C27;
+			remoteInfo = UnityFramework;
+		};
+		672DC9A12F6D3F2300CCE790 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 672DAA0F2F6D3E1300CCE790 /* Unity-iPhone.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D25AB9C213FB47800354C27;
+			remoteInfo = UnityFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		672DC9A72F6D3F5A00CCE790 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				672DC9A62F6D3F5A00CCE790 /* UnityFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		67165EE62F6AADC700A00FA9 /* AuraOS-Rebuild.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "AuraOS-Rebuild.xcodeproj"; sourceTree = "<group>"; };
+		672DAA0F2F6D3E1300CCE790 /* Unity-iPhone.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "Unity-iPhone.xcodeproj"; sourceTree = "<group>"; };
+		672DC9862F6D3EF300CCE790 /* Unity-iPhone.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "Unity-iPhone.xcodeproj"; sourceTree = "<group>"; };
+		A00000000000000000000001 /* AuraOS-Rebuild.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AuraOS-Rebuild.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A00000000000000000000002 /* Exceptions for "AuraOS-Rebuild" folder in "AuraOS-Rebuild" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = A00000000000000000000010 /* AuraOS-Rebuild */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A00000000000000000000003 /* AuraOS-Rebuild */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A00000000000000000000002 /* Exceptions for "AuraOS-Rebuild" folder in "AuraOS-Rebuild" target */,
+			);
+			path = "AuraOS-Rebuild";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A00000000000000000000011 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				672DC9A52F6D3F5A00CCE790 /* UnityFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67165F692F6AADC700A00FA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		672DB78D2F6D3E1300CCE790 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		672DC9872F6D3EF300CCE790 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				672DC99E2F6D3EF400CCE790 /* UnityFramework.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		672DC9A32F6D3F3A00CCE790 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A00000000000000000000004 = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000003 /* AuraOS-Rebuild */,
+				672DC9A32F6D3F3A00CCE790 /* Frameworks */,
+				A00000000000000000000005 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A00000000000000000000005 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000001 /* AuraOS-Rebuild.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A00000000000000000000010 /* AuraOS-Rebuild */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00000000000000000000020 /* Build configuration list for PBXNativeTarget "AuraOS-Rebuild" */;
+			buildPhases = (
+				A00000000000000000000012 /* Sources */,
+				A00000000000000000000011 /* Frameworks */,
+				A00000000000000000000013 /* Resources */,
+				672DC9A72F6D3F5A00CCE790 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				672DC9A22F6D3F2300CCE790 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A00000000000000000000003 /* AuraOS-Rebuild */,
+			);
+			name = "AuraOS-Rebuild";
+			packageProductDependencies = (
+			);
+			productName = AuraOSRebuild;
+			productReference = A00000000000000000000001 /* AuraOS-Rebuild.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A00000000000000000000006 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2610;
+				LastUpgradeCheck = 2610;
+				TargetAttributes = {
+					A00000000000000000000010 = {
+						CreatedOnToolsVersion = 26.0;
+					};
+				};
+			};
+			buildConfigurationList = A00000000000000000000021 /* Build configuration list for PBXProject "AuraOS-Rebuild" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A00000000000000000000004;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A00000000000000000000005 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 67165F692F6AADC700A00FA9 /* Products */;
+					ProjectRef = 67165EE62F6AADC700A00FA9 /* AuraOS-Rebuild.xcodeproj */;
+				},
+				{
+					ProductGroup = 672DB78D2F6D3E1300CCE790 /* Products */;
+					ProjectRef = 672DAA0F2F6D3E1300CCE790 /* Unity-iPhone.xcodeproj */;
+				},
+				{
+					ProductGroup = 672DC9872F6D3EF300CCE790 /* Products */;
+					ProjectRef = 672DC9862F6D3EF300CCE790 /* Unity-iPhone.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				A00000000000000000000010 /* AuraOS-Rebuild */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		672DC99E2F6D3EF400CCE790 /* UnityFramework.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = UnityFramework.framework;
+			remoteRef = 672DC99D2F6D3EF400CCE790 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A00000000000000000000013 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A00000000000000000000012 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		672DC9A22F6D3F2300CCE790 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UnityFramework;
+			targetProxy = 672DC9A12F6D3F2300CCE790 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A00000000000000000000030 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4B4PBHT876;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "$(SRCROOT)/AuraOS-Rebuild/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AuraOS-Rebuild/UnityProject/Library/PackageCache/.tmp-60427-SUqWUBlKUnDB/copy/.Runtime/libs",
+					"$(PROJECT_DIR)/AuraOS-Rebuild/UnityProject/Library/PackageCache/.tmp-60427-SUqWUBlKUnDB/copy/.Runtime",
+					"$(PROJECT_DIR)/AuraOS-Rebuild/UnityProject/Library/PackageCache/com.unity.burst@1.8.21/.Runtime/libs",
+					"$(PROJECT_DIR)/AuraOS-Rebuild/UnityProject/Library/PackageCache/com.unity.burst@1.8.21/.Runtime",
+					"$(PROJECT_DIR)/AuraOS-Rebuild/UnityExport/ios-2026-03-19-v1/Il2CppOutputProject/IL2CPP/build/deploy_arm64",
+					"$(PROJECT_DIR)/AuraOS-Rebuild/UnityExport/ios-2026-03-19-v1/Il2CppOutputProject/IL2CPP/build/deploy_x86_64",
+					"$(PROJECT_DIR)/AuraOS-Rebuild/UnityExport/ios-2026-03-19-v1/Libraries",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rebuild.AuraOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A00000000000000000000031 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4B4PBHT876;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "$(SRCROOT)/AuraOS-Rebuild/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AuraOS-Rebuild/UnityProject/Library/PackageCache/.tmp-60427-SUqWUBlKUnDB/copy/.Runtime/libs",
+					"$(PROJECT_DIR)/AuraOS-Rebuild/UnityProject/Library/PackageCache/.tmp-60427-SUqWUBlKUnDB/copy/.Runtime",
+					"$(PROJECT_DIR)/AuraOS-Rebuild/UnityProject/Library/PackageCache/com.unity.burst@1.8.21/.Runtime/libs",
+					"$(PROJECT_DIR)/AuraOS-Rebuild/UnityProject/Library/PackageCache/com.unity.burst@1.8.21/.Runtime",
+					"$(PROJECT_DIR)/AuraOS-Rebuild/UnityExport/ios-2026-03-19-v1/Il2CppOutputProject/IL2CPP/build/deploy_arm64",
+					"$(PROJECT_DIR)/AuraOS-Rebuild/UnityExport/ios-2026-03-19-v1/Il2CppOutputProject/IL2CPP/build/deploy_x86_64",
+					"$(PROJECT_DIR)/AuraOS-Rebuild/UnityExport/ios-2026-03-19-v1/Libraries",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rebuild.AuraOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A00000000000000000000020 /* Build configuration list for PBXNativeTarget "AuraOS-Rebuild" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00000000000000000000030 /* Debug */,
+				A00000000000000000000031 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00000000000000000000021 /* Build configuration list for PBXProject "AuraOS-Rebuild" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00000000000000000000030 /* Debug */,
+				A00000000000000000000031 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A00000000000000000000006 /* Project object */;
+}
